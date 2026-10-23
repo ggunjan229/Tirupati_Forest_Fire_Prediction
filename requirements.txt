@@ -1,0 +1,9 @@
+# Compatible Windows/Python 3.11 set. Keep NumPy and pandas in sync with wheels.
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+xgboost==2.1.4
+joblib>=1.3,<2
+streamlit==1.54.0
+plotly==6.3.0
+
