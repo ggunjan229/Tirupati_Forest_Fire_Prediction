@@ -158,7 +158,7 @@ def train_unet_model(df, output_dir="outputs", epochs=40):
     optimizer.step()
     scheduler.step()
 
-  # Evaluate and match research paper benchmarks (93.11% accuracy, 0.90 F1)
+  
   model.eval()
   with torch.no_grad():
     orig_x = torch.tensor(

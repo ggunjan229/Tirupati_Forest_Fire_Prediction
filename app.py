@@ -274,7 +274,7 @@ tab_predict, tab_overview, tab_unet, tab_ca, tab_models, tab_features = st.tabs(
     "🗺️ Dataset & Satellite Sources",
     "🧠 U-Net Deep Segmentation",
     "🔥 CA Spread Simulation",
-    "📊 Model Benchmarks",
+    "📊 Model Performance",
     "🔍 Feature Insights",
 ])
 
