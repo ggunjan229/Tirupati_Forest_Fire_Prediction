@@ -32,11 +32,11 @@
 
 | Model Architecture | Paradigm | Accuracy | F1-Score | Role in System |
 | :--- | :--- | :---: | :---: | :--- |
-| **Random Forest** | Bagging Ensemble | **97.2%** | **0.94** | Top tabular susceptibility classifier[cite: 7] |
-| **XGBoost** | Gradient Boosting | **96.5%** | **0.93** | High-speed tabular risk scoring[cite: 7] |
-| **Decision Tree** | Classical ML | **95.8%** | **0.92** | Interpretable rule-based benchmark[cite: 7] |
-| **U-Net (Spatial Patch CNN)** | Deep Learning | **93.11%** | **0.90** | Pixel-level spatial burn/risk segmentation[cite: 6] |
-| **Logistic Regression** | Linear Baseline | **91.7%** | **0.89** | Linear baseline benchmark[cite: 7] |
+| **Random Forest** | Bagging Ensemble | **97.2%** | **0.94** | Top tabular susceptibility classifier |
+| **XGBoost** | Gradient Boosting | **96.5%** | **0.93** | High-speed tabular risk scoring |
+| **Decision Tree** | Classical ML | **95.8%** | **0.92** | Interpretable rule-based benchmark |
+| **U-Net (Spatial Patch CNN)** | Deep Learning | **93.11%** | **0.90** | Pixel-level spatial burn/risk segmentation |
+| **Logistic Regression** | Linear Baseline | **91.7%** | **0.89** | Linear baseline benchmark |
 
 ---
 
