@@ -13,7 +13,6 @@
 ---
 
 ## 🖥️ Platform Modules & Visual Previews
-> *Upload screenshots of your Streamlit tabs into `assets/` and link them below:*
 
 1. **🎯 Forest Fire Prediction:** Interactive risk inference across geographic coordinates and environmental inputs.
 2. **🗺️ Dataset & Satellite Sources:** Multi-source geospatial pipeline extracted via **Google Earth Engine** (vegetation indices, topography, land surface temperature, meteorological layers).
@@ -22,10 +21,14 @@
 5. **📊 Model Performance:** Comparative benchmarking across classical ML and Deep Learning architectures (Accuracy, Precision, Recall, F1-Score, ROC-AUC).
 6. **🔍 Feature Insights:** Environmental driver analysis and feature importance diagnostics.
 
-![WildShield AI Overview](assets/overview.png)
-![Cellular Automata Spread Simulation](assets/ca_simulation.png)
-![U-Net Segmentation & Model Performance](assets/model_performance.png)
+### 🎯 Interactive Forest Fire Prediction
+![Interactive Forest Fire Prediction](assets/fire_prediction_ui.png)
 
+### 🧠 U-Net Deep Spatial Segmentation (128 × 128 × 8 Channels)
+![U-Net Deep Spatial Segmentation](assets/unet_segmentation.png)
+
+### 🔥 Cellular Automata (CA) Dynamic Fire Spread Simulation
+![Cellular Automata Spread Simulation](assets/ca_spread_simulation.png)
 ---
 
 ## 📊 Model Benchmarking & Performance
