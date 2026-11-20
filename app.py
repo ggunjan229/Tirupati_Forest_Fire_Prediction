@@ -13,7 +13,7 @@ from src.ca_simulation import CellularAutomataFireSpread
 from src.train_unet import UNetFireSegmenter, build_spatial_raster_grid
 
 st.set_page_config(
-    page_title="Tirupati Fire Intelligence", page_icon="🌿", layout="wide"
+    page_title="WildShield AI", page_icon="🌿", layout="wide"
 )
 st.markdown(
     """
@@ -96,7 +96,7 @@ st.markdown(
 .result-card {padding:1rem 1.2rem;border:1px solid #d6e2d7;border-radius:12px;background:#fff}
 </style>
 <div class="hero">
-  <h1>🌿 Tirupati Fireline Intelligence</h1>
+  <h1>🌿 Tirupati WildShield AI </h1>
   <p>Multi-Source Google Earth Engine Dataset · Machine Learning Susceptibility · U-Net Deep Spatial Segmentation · Cellular Automata Spread Simulation</p>
 </div>
 """,
