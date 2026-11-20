@@ -8,19 +8,19 @@
 ![Deployment](https://img.shields.io/badge/App-Streamlit-ff4b4b)
 
 ## 📌 Overview
-**WildShield AI** is an end-to-end geospatial AI and simulation platform designed to predict wildfire susceptibility, segment high-risk spatial burn zones, and simulate real-time fire propagation across the **Tirupati forest ecosystem**[cite: 9]. Integrating **Google Earth Engine** satellite remote sensing data with tabular ensemble ML, **U-Net** deep spatial segmentation, and **Cellular Automata (CA)** modeling[cite: 9], the platform delivers a 6-module interactive decision-support suite[cite: 9].
+**WildShield AI** is an end-to-end geospatial AI and simulation platform designed to predict wildfire susceptibility, segment high-risk spatial burn zones, and simulate real-time fire propagation across the **Tirupati forest ecosystem**. Integrating **Google Earth Engine** satellite remote sensing data with tabular ensemble ML, **U-Net** deep spatial segmentation, and **Cellular Automata (CA)** modeling, the platform delivers a 6-module interactive decision-support suite.
 
 ---
 
 ## 🖥️ Platform Modules & Visual Previews
 > *Upload screenshots of your Streamlit tabs into `assets/` and link them below:*
 
-1. **🎯 Forest Fire Prediction:** Interactive risk inference across geographic coordinates and environmental inputs[cite: 9].
-2. **🗺️ Dataset & Satellite Sources:** Multi-source geospatial pipeline extracted via **Google Earth Engine** (vegetation indices, topography, land surface temperature, meteorological layers)[cite: 9].
-3. **🧠 U-Net Deep Segmentation:** Encoder-decoder convolutional architecture predicting pixel-level spatial burn/risk masks on geospatial patches[cite: 9].
-4. **🔥 CA Spread Simulation:** Dynamic **Cellular Automata** propagation engine simulating step-by-step fire spread across terrain grids[cite: 9].
-5. **📊 Model Performance:** Comparative benchmarking across classical ML and Deep Learning architectures (Accuracy, Precision, Recall, F1-Score, ROC-AUC)[cite: 9].
-6. **🔍 Feature Insights:** Environmental driver analysis and feature importance diagnostics[cite: 9].
+1. **🎯 Forest Fire Prediction:** Interactive risk inference across geographic coordinates and environmental inputs.
+2. **🗺️ Dataset & Satellite Sources:** Multi-source geospatial pipeline extracted via **Google Earth Engine** (vegetation indices, topography, land surface temperature, meteorological layers).
+3. **🧠 U-Net Deep Segmentation:** Encoder-decoder convolutional architecture predicting pixel-level spatial burn/risk masks on geospatial patches.
+4. **🔥 CA Spread Simulation:** Dynamic **Cellular Automata** propagation engine simulating step-by-step fire spread across terrain grids.
+5. **📊 Model Performance:** Comparative benchmarking across classical ML and Deep Learning architectures (Accuracy, Precision, Recall, F1-Score, ROC-AUC).
+6. **🔍 Feature Insights:** Environmental driver analysis and feature importance diagnostics.
 
 ![WildShield AI Overview](assets/overview.png)
 ![Cellular Automata Spread Simulation](assets/ca_simulation.png)
@@ -41,9 +41,9 @@
 ---
 
 ## 🛠️ Tech Stack
-- **Deep Learning & Computer Vision:** PyTorch, U-Net Spatial Segmentation[cite: 9]
+- **Deep Learning & Computer Vision:** PyTorch, U-Net Spatial Segmentation
 - **Machine Learning:** XGBoost, Random Forest, Decision Tree, Logistic Regression, Scikit-Learn
-- **Geospatial & Simulation:** Google Earth Engine (GEE), Cellular Automata (CA), NumPy, Pandas[cite: 9]
+- **Geospatial & Simulation:** Google Earth Engine (GEE), Cellular Automata (CA), NumPy, Pandas
 - **Application & Visualization:** Streamlit, Matplotlib, Seaborn, Plotly
 
 ---
