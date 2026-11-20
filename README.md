@@ -14,12 +14,12 @@
 
 ## 🖥️ Platform Modules & Visual Previews
 
-1. **🎯 Forest Fire Prediction:** Interactive risk inference across geographic coordinates and environmental inputs.
-2. **🗺️ Dataset & Satellite Sources:** Multi-source geospatial pipeline extracted via **Google Earth Engine** (vegetation indices, topography, land surface temperature, meteorological layers).
-3. **🧠 U-Net Deep Segmentation:** Encoder-decoder convolutional architecture predicting pixel-level spatial burn/risk masks on geospatial patches.
-4. **🔥 CA Spread Simulation:** Dynamic **Cellular Automata** propagation engine simulating step-by-step fire spread across terrain grids.
-5. **📊 Model Performance:** Comparative benchmarking across classical ML and Deep Learning architectures (Accuracy, Precision, Recall, F1-Score, ROC-AUC).
-6. **🔍 Feature Insights:** Environmental driver analysis and feature importance diagnostics.
+1. **Forest Fire Prediction:** Interactive risk inference across geographic coordinates and environmental inputs.
+2. **Dataset & Satellite Sources:** Multi-source geospatial pipeline extracted via **Google Earth Engine** (vegetation indices, topography, land surface temperature, meteorological layers).
+3. **U-Net Deep Segmentation:** Encoder-decoder convolutional architecture predicting pixel-level spatial burn/risk masks on geospatial patches.
+4. **CA Spread Simulation:** Dynamic **Cellular Automata** propagation engine simulating step-by-step fire spread across terrain grids.
+5. **Model Performance:** Comparative benchmarking across classical ML and Deep Learning architectures (Accuracy, Precision, Recall, F1-Score, ROC-AUC).
+6. **Feature Insights:** Environmental driver analysis and feature importance diagnostics.
 
 ### 🎯 Interactive Forest Fire Prediction
 ![Interactive Forest Fire Prediction](assets/fire_prediction_ui.png)
