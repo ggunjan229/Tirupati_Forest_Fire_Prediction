@@ -1,4 +1,4 @@
-# 🌿 Tirupati WildShield AI
+# 🌿 WildShield AI
 ### Multi-Source Satellite Wildfire Susceptibility, U-Net Deep Spatial Segmentation & Cellular Automata Spread Simulation
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
@@ -8,7 +8,7 @@
 ![Deployment](https://img.shields.io/badge/App-Streamlit-ff4b4b)
 
 ## 📌 Overview
-**Tirupati WildShield AI** is an end-to-end geospatial AI and simulation platform designed to predict wildfire susceptibility, segment high-risk spatial burn zones, and simulate real-time fire propagation across the **Tirupati forest ecosystem**[cite: 9]. Integrating **Google Earth Engine** satellite remote sensing data with tabular ensemble ML, **U-Net** deep spatial segmentation, and **Cellular Automata (CA)** modeling[cite: 9], the platform delivers a 6-module interactive decision-support suite[cite: 9].
+**WildShield AI** is an end-to-end geospatial AI and simulation platform designed to predict wildfire susceptibility, segment high-risk spatial burn zones, and simulate real-time fire propagation across the **Tirupati forest ecosystem**[cite: 9]. Integrating **Google Earth Engine** satellite remote sensing data with tabular ensemble ML, **U-Net** deep spatial segmentation, and **Cellular Automata (CA)** modeling[cite: 9], the platform delivers a 6-module interactive decision-support suite[cite: 9].
 
 ---
 
