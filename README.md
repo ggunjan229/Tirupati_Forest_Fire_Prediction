@@ -1,60 +1,56 @@
-# Tirupati Forest Fire Prediction & Spread Explorer
+# 🌿 Tirupati WildShield AI
+### Multi-Source Satellite Wildfire Susceptibility, U-Net Deep Spatial Segmentation & Cellular Automata Spread Simulation
 
-A runnable research and demonstration project integrating multi-source satellite remote sensing, classical machine learning classifiers, 2D U-Net deep learning spatial segmentation, and Cellular Automata (CA) fire propagation simulation for the Seshachalam Biosphere Reserve in the Tirupati region.
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-PyTorch%20%7C%20U--Net-red)
+![Remote Sensing](https://img.shields.io/badge/Data-Google%20Earth%20Engine-green)
+![Simulation](https://img.shields.io/badge/Engine-Cellular%20Automata-orange)
+![Deployment](https://img.shields.io/badge/App-Streamlit-ff4b4b)
 
-## Dataset & Architecture
+## 📌 Overview
+**Tirupati WildShield AI** is an end-to-end geospatial AI and simulation platform designed to predict wildfire susceptibility, segment high-risk spatial burn zones, and simulate real-time fire propagation across the **Tirupati forest ecosystem**[cite: 9]. Integrating **Google Earth Engine** satellite remote sensing data with tabular ensemble ML, **U-Net** deep spatial segmentation, and **Cellular Automata (CA)** modeling[cite: 9], the platform delivers a 6-module interactive decision-support suite[cite: 9].
 
-- **Data Source**: Real multi-source geospatial and meteorological rasters extracted via Google Earth Engine (`data/tirupati_real_fire_dataset_2026.csv`), featuring MODIS BurnDate DOY, Sentinel-2 NDVI, MODIS Land Surface Temperature (LST), NASA GPM IMERG precipitation, ERA5 climate reanalysis, and SRTM digital elevation models.
-- **Models & Performance**:
-  - **Random Forest**: 97.20% Accuracy (0.94 F1-Score)
-  - **XGBoost**: 96.50% Accuracy (0.93 F1-Score)
-  - **Decision Tree**: 95.80% Accuracy (0.92 F1-Score)
-  - **Logistic Regression**: 91.70% Accuracy (0.89 F1-Score)
-  - **U-Net Deep Learning**: 93.11% Accuracy (0.90 F1-Score)
-- **Cellular Automata (CA) Simulator**: Models directional fire propagation across 1, 3, 6, and 12-hour simulation horizons driven by slope inclination, wind azimuth vectors, and NDVI fuel density.
+---
 
-## Quick Start (Windows / VS Code)
+## 🖥️ Platform Modules & Visual Previews
+> *Upload screenshots of your Streamlit tabs into `assets/` and link them below:*
 
-1. Open the project folder containing `app.py` and `requirements.txt` in VS Code.
-2. Open **Terminal → New Terminal**, then create and activate a clean virtual environment:
+1. **🎯 Forest Fire Prediction:** Interactive risk inference across geographic coordinates and environmental inputs[cite: 9].
+2. **🗺️ Dataset & Satellite Sources:** Multi-source geospatial pipeline extracted via **Google Earth Engine** (vegetation indices, topography, land surface temperature, meteorological layers)[cite: 9].
+3. **🧠 U-Net Deep Segmentation:** Encoder-decoder convolutional architecture predicting pixel-level spatial burn/risk masks on geospatial patches[cite: 9].
+4. **🔥 CA Spread Simulation:** Dynamic **Cellular Automata** propagation engine simulating step-by-step fire spread across terrain grids[cite: 9].
+5. **📊 Model Performance:** Comparative benchmarking across classical ML and Deep Learning architectures (Accuracy, Precision, Recall, F1-Score, ROC-AUC)[cite: 9].
+6. **🔍 Feature Insights:** Environmental driver analysis and feature importance diagnostics[cite: 9].
 
-   ```powershell
-   py -3.11 -m venv .venv
-   .\.venv\Scripts\Activate.ps1
-   python -m pip install --upgrade pip
-   python -m pip install -r requirements.txt
-   ```
+![WildShield AI Overview](assets/overview.png)
+![Cellular Automata Spread Simulation](assets/ca_simulation.png)
+![U-Net Segmentation & Model Performance](assets/model_performance.png)
 
-3. Run the master training and evaluation pipeline to generate models and plots in `outputs/`:
+---
 
-   ```powershell
-   python main.py
-   ```
+## 📊 Model Benchmarking & Performance
 
-4. Launch the interactive Streamlit decision support web application:
+| Model Architecture | Paradigm | Accuracy | F1-Score | Role in System |
+| :--- | :--- | :---: | :---: | :--- |
+| **Random Forest** | Bagging Ensemble | **97.2%** | **0.94** | Top tabular susceptibility classifier[cite: 7] |
+| **XGBoost** | Gradient Boosting | **96.5%** | **0.93** | High-speed tabular risk scoring[cite: 7] |
+| **Decision Tree** | Classical ML | **95.8%** | **0.92** | Interpretable rule-based benchmark[cite: 7] |
+| **U-Net (Spatial Patch CNN)** | Deep Learning | **93.11%** | **0.90** | Pixel-level spatial burn/risk segmentation[cite: 6] |
+| **Logistic Regression** | Linear Baseline | **91.7%** | **0.89** | Linear baseline benchmark[cite: 7] |
 
-   ```powershell
-   python -m streamlit run app.py
-   ```
+---
 
-5. Open the local URL printed in your terminal (typically `http://localhost:8501`) to explore the prediction dashboard, U-Net risk segmenter, CA spread simulator, and model performance. Press **Ctrl+C** to stop the server.
+## 🛠️ Tech Stack
+- **Deep Learning & Computer Vision:** PyTorch, U-Net Spatial Segmentation[cite: 9]
+- **Machine Learning:** XGBoost, Random Forest, Decision Tree, Logistic Regression, Scikit-Learn
+- **Geospatial & Simulation:** Google Earth Engine (GEE), Cellular Automata (CA), NumPy, Pandas[cite: 9]
+- **Application & Visualization:** Streamlit, Matplotlib, Seaborn, Plotly
 
-## Project Structure
+---
 
-```text
-app.py                     Streamlit interactive dashboard
-main.py                    Master execution pipeline
-src/
-  ├── preprocess.py        GEE data loading & feature normalization
-  ├── train_ml.py          Tabular classifier training & evaluation
-  ├── train_unet.py        2D U-Net deep learning spatial segmentation
-  └── ca_simulation.py     Cellular Automata directional fire spread engine
-outputs/
-  ├── models/              Saved joblib models, scaler, and PyTorch weights (.pth)
-  └── plots/               Confusion matrices, ROC curves, feature importance & rasters
-data/                      Real Tirupati GEE dataset CSV
-requirements.txt           Pinned Python dependencies
-```
-
-## Disclaimer
-This project is developed as a Major Project Dissertation (ES-452) for academic evaluation. While trained on real satellite data and validated against research benchmarks, operational deployment requires real-time meteorological IoT feeds and field validation.
+## 🚀 Run Locally
+```bash
+git clone [https://github.com/ggunjan229/](https://github.com/ggunjan229/)<your-wildshield-repo>.git
+cd <your-wildshield-repo>
+pip install -r requirements.txt
+streamlit run app.py
